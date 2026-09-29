@@ -1,2 +1,19 @@
 /* For information on how to create your own theme, please refer to:
 http://ionicframework.com/docs/theming/ */
+
+/* Ajustes de cor personalizados */
+body {
+  /* Cor de fundo em tom grafite */
+  --ion-background-color: #2b2b2b;
+  
+  /* Cor do cabeçalho (um grafite ligeiramente mais escuro para dar contraste) */
+  --ion-toolbar-background: #1f1f1f; 
+
+  /* Azul petróleo para a cor primária (botões) */
+  --ion-color-primary: #1A5F7A;
+  --ion-color-primary-rgb: 26, 95, 122;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #17546b;
+  --ion-color-primary-tint: #316f87;
+}
