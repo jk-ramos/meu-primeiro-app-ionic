@@ -1,19 +1,47 @@
-/* For information on how to create your own theme, please refer to:
-http://ionicframework.com/docs/theming/ */
+:root {
+  /* Cores Principais do Portfólio */
+  --ion-color-primary: #F39EB6;
+  --ion-color-primary-rgb: 243, 158, 182;
+  --ion-color-primary-contrast: #222222;
+  --ion-color-primary-shade: #d68ba0;
+  --ion-color-primary-tint: #f5a8bd;
 
-/* Ajustes de cor personalizados */
-body {
-  /* Cor de fundo em tom grafite */
-  --ion-background-color: #2b2b2b;
-  
-  /* Cor do cabeçalho (um grafite ligeiramente mais escuro para dar contraste) */
-  --ion-toolbar-background: #1f1f1f; 
+  --ion-color-secondary: #B8DB80;
+  --ion-color-secondary-rgb: 184, 219, 128;
+  --ion-color-secondary-contrast: #222222;
+  --ion-color-secondary-shade: #a2c170;
+  --ion-color-secondary-tint: #bfdf8d;
 
-  /* Azul petróleo para a cor primária (botões) */
-  --ion-color-primary: #1A5F7A;
-  --ion-color-primary-rgb: 26, 95, 122;
-  --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #17546b;
-  --ion-color-primary-tint: #316f87;
+  --ion-color-light: #F7F6D3;
+  --ion-color-light-rgb: 247, 246, 211;
+
+  --ion-color-tertiary: #FFE4EF;
+  --ion-color-tertiary-rgb: 255, 228, 239;
+
+  /* Fundo da Aplicação */
+  --ion-background-color: #F7F6D3;
+  --ion-text-color: #2b2b2b;
+}
+
+/* Estilo personalizado para os Cartões e Itens */
+ion-card {
+  --background: #FFE4EF;
+  color: #2b2b2b;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+ion-item {
+  --background: transparent;
+  --color: #2b2b2b;
+}
+
+ion-toolbar {
+  --background: #F39EB6;
+  --color: #2b2b2b;
+}
+
+ion-tab-bar {
+  --background: #FFE4EF;
+  --color-selected: #F39EB6;
 }
